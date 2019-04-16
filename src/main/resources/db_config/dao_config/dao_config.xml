@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<daoConfig>
+    <tableConfig defaultMaxResultSet="3000" memoryDbEnable="false" checkFkOnDeleteEnable="true">
+    </tableConfig>
+
+    <voConfig>
+        <voExpandMethod>
+            <voInheriteds>
+             
+            </voInheriteds>
+
+            <voRelationCaches>
+
+            </voRelationCaches>
+        </voExpandMethod>
+
+    </voConfig>
+</daoConfig>

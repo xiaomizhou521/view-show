@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root defDateFormat="yyyy-MM-dd HH:mm:ss" driver="cn.com.enorth.utility.file.impl.xml_util.XmlDriver" version="1.0">
+  <CONFIG_NODE_NAME class="java.lang.String" comment="数据库连接池在xml配置文件中的节点名"><![CDATA[dbpool]]></CONFIG_NODE_NAME>
+  <sqlOverTime class="java.lang.Long" comment="sql运行的超时时间，超过这个时间就记日志">5000</sqlOverTime>
+  <CHECK_CLOSE_UPBOUND class="java.lang.Integer" comment="检查未关闭的PreparedStatement rs 的上限">10000</CHECK_CLOSE_UPBOUND>
+  <noCommitErrorLogOnFreeConnection class="java.lang.Boolean" comment="释放连接时如果发现连接没有提交记录错误日志">true</noCommitErrorLogOnFreeConnection>
+  <BUS_DB_TIMEOUT class="java.lang.Integer" comment="远程数据库连接的超时时间">5000</BUS_DB_TIMEOUT>
+  <REMOTE_DB_CONN_AUTO_FREE_TIMEOUT class="java.lang.Long" comment="远程数据库连接的自动释放超时时间">30000</REMOTE_DB_CONN_AUTO_FREE_TIMEOUT>
+  <REMOTE_DB_CONN_AUTO_FREE_INTERVAL class="java.lang.Long" comment="远程数据库连接的自动释放,定时时长">60000</REMOTE_DB_CONN_AUTO_FREE_INTERVAL>
+  <REMOTE_DB_CONN_AUTO_FREE_PRINT_ENABLE class="java.lang.Boolean" comment="远程数据库连接的自动释放,是否打印连接Map的大小">false</REMOTE_DB_CONN_AUTO_FREE_PRINT_ENABLE>
+</root>

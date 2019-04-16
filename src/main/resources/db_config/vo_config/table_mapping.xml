@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enorth-configuratioin>
+	<other-files>
+		<file>db_config/vo_config/table_mapping_plugin.xml</file>
+	</other-files>
+</enorth-configuratioin>

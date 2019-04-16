@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root defDateFormat="yyyy-MM-dd HH:mm:ss" driver="cn.com.enorth.utility.file.impl.xml_util.XmlDriver" version="1.0">
+  <DEF_SVO_QUERY_PAGE_SIZE class="java.lang.Integer" comment="默认查询一个分页的大小">20</DEF_SVO_QUERY_PAGE_SIZE>
+  <DEF_SVO_QUERY_NEED_PAGING class="java.lang.Boolean" comment="使用svo查询时，默认是否分页">false</DEF_SVO_QUERY_NEED_PAGING>
+  <DEF_SVO_QUERY_NEED_COUNT class="java.lang.Boolean" comment="使用svo查询时，默认是否Count">true</DEF_SVO_QUERY_NEED_COUNT>
+  <SQL_CONFIG_MARK_LEN class="java.lang.Integer">100</SQL_CONFIG_MARK_LEN>
+  <DAO_CONFIG_PATH class="java.lang.String" comment="daoConfig的默认目录"><![CDATA[db_config/dao_config]]></DAO_CONFIG_PATH>
+  <MEMORY_CREATE_TABLE_SQL_PATH class="java.lang.String" comment="内存数据库创建表的sql语句"><![CDATA[memory_create_table_sql]]></MEMORY_CREATE_TABLE_SQL_PATH>
+  <DAO_ACCESS_STAT class="java.lang.Boolean" comment="DAO_ACCESS_STAT统计是否开启">false</DAO_ACCESS_STAT>
+  <DAO_ACCESS_STAT_MODE class="cn.com.enorth.utility.db.impl.dao.enums.EnumDaoAccessStatMode" comment="DAO_ACCESS_STAT统计模式">hard</DAO_ACCESS_STAT_MODE>
+  <MYSQL_ADAPTER_DEAL_ORDERBY class="java.lang.Boolean" comment="Mysql中的order by是否进行 convert 处理，进而实现汉字排序">true</MYSQL_ADAPTER_DEAL_ORDERBY>
+</root>

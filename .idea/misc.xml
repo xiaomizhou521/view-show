@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="SaveActionSettings">
+    <option name="actions">
+      <set>
+        <option value="activate" />
+        <option value="organizeImports" />
+        <option value="reformat" />
+        <option value="reformatChangedCode" />
+        <option value="missingOverrideAnnotation" />
+        <option value="useBlocks" />
+        <option value="unnecessaryThis" />
+        <option value="finalPrivateMethod" />
+        <option value="unnecessaryFinalOnLocalVariableOrParameter" />
+        <option value="explicitTypeCanBeDiamond" />
+        <option value="suppressAnnotation" />
+        <option value="unnecessarySemicolon" />
+      </set>
+    </option>
+    <option name="configurationPath" value="" />
+    <option name="exclusions">
+      <set>
+        <option value=".*\.jsp" />
+      </set>
+    </option>
+  </component>
+</project>

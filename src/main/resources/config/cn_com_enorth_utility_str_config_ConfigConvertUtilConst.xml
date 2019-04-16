@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root defDateFormat="yyyy-MM-dd HH:mm:ss" driver="cn.com.enorth.utility.file.impl.xml_util.XmlDriver" version="1.0">
+  <BUFSIZE class="java.lang.Integer" comment="处理流的缓存大小">1024</BUFSIZE>
+</root>

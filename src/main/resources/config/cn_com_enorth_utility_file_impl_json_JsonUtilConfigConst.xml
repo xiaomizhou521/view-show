@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root defDateFormat="yyyy-MM-dd HH:mm:ss" driver="cn.com.enorth.utility.file.impl.xml_util.XmlDriver" version="1.0">
+  <JSON_DEFAULT_DATE_FORMAT  class="java.lang.String">yyyy-MM-dd HH:mm:ss</JSON_DEFAULT_DATE_FORMAT>
+</root>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sql-configuratioin>
+	<other-files>
+	<file>db_config/sql_config/sql_config_user_tag_oracle.xml</file>
+	</other-files>
+</sql-configuratioin>

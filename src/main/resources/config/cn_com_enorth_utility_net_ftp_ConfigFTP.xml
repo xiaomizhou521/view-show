@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root defDateFormat="yyyy-MM-dd HH:mm:ss" driver="cn.com.enorth.utility.file.impl.xml_util.XmlDriver" version="1.0">
+  <CONTROL_PORT class="java.lang.Integer">21</CONTROL_PORT>
+  <DEFAULT_TIMEOUT class="java.lang.Integer">30000</DEFAULT_TIMEOUT>
+  <DEFAULT_PRIORITY class="java.lang.Integer">5</DEFAULT_PRIORITY>
+  <CHUNK_SIZE class="java.lang.Integer">65536</CHUNK_SIZE>
+  <MAX_BIN_FILE_SIZE class="java.lang.Long">4294967296</MAX_BIN_FILE_SIZE>
+  <MAX_LOAD_TO_BYTE_ARRAY_FILE_SIZE class="java.lang.Long">16777216</MAX_LOAD_TO_BYTE_ARRAY_FILE_SIZE>
+  <MAX_TRY_GET_TIMES class="java.lang.Integer">3</MAX_TRY_GET_TIMES>
+  <MAX_TRY_PUT_TIMES class="java.lang.Integer">3</MAX_TRY_PUT_TIMES>
+  <MAX_TRY_DEL_TIMES class="java.lang.Integer">3</MAX_TRY_DEL_TIMES>
+  <RETRY_INTERVAL class="java.lang.Integer">1000</RETRY_INTERVAL>
+  <MIN_POOL_SIZE class="java.lang.Integer">3</MIN_POOL_SIZE>
+  <MAX_POOL_SIZE class="java.lang.Integer">50</MAX_POOL_SIZE>
+  <CHECK_INTERVAL_MILLS_ON_FAIL class="java.lang.Long">2000</CHECK_INTERVAL_MILLS_ON_FAIL>
+  <CHECK_INTERVAL_MILLS_ON_SUCCESS class="java.lang.Long">10000</CHECK_INTERVAL_MILLS_ON_SUCCESS>
+  <REPLY_ENCODE class="java.lang.String"><![CDATA[GBK]]></REPLY_ENCODE>
+</root>

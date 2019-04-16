@@ -1,0 +1,1 @@
+<script src="${param.path}tagx/bootstrap/js/date/WdatePicker.js"></script>

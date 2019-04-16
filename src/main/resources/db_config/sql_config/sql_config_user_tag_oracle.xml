@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sql-configuratioin>
+	<other-files>
+		<file />
+	</other-files>
+	<sqls namespace="user_tag">
+		<sql id="query" description=""><![CDATA[select *
+  from (select a.*, rownum rn
+          from (select  
+                       super_id,
+                       user_tag,
+                       top,
+                       tag_dimension,
+                       sum(tag_rank) as tag_rank
+                  from trec_user_tags
+                 where where 1=1
+        <#if super_id??> 
+        and super_id='$!super_id!$'
+        </#if>
+        <#if user_tag??> 
+        and user_tag='$!user_tag!$'
+        </#if>
+        <#if top??> 
+        and top=$!top!$
+        </#if>
+        <#if dimension??> 
+        and tag_dimension='$!dimension!$'
+        </#if>
+        <#if tag_source??> 
+        and tag_source='$!tag_source!$'
+        </#if>
+                 group by super_id, user_tag, top, tag_dimension
+        <#if order_by??> 
+        order by $!order_by!$
+        </#if>
+                 ) a
+         where rownum <= $!end_row!$)
+ where rn >= $!start_row!$
+		]]>
+		</sql>
+	</sqls>
+</sql-configuratioin>

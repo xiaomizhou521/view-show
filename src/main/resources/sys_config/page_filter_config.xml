@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root defDateFormat="yyyy-MM-dd HH:mm:ss" driver="cn.com.enorth.utility.file.impl.xml_util.XmlDriver" version="1.0">
+  <root class="cn.com.enorth.utility.app.filter.priv.impl.vo.config.PageFilterConfigVo">
+    <privErrorPage class="java.lang.String" comment="priv错误页地址"><![CDATA[/WEB-INF/views/error/priv_error.jsp]]></privErrorPage>
+    <accessErrorPage class="java.lang.String" comment="access错误页地址"><![CDATA[/WEB-INF/views/error/access_error.jsp]]></accessErrorPage>
+    <sessionErrorPage class="java.lang.String" comment="session错误页地址"><![CDATA[/WEB-INF/views/error/session_error.jsp]]></sessionErrorPage>
+    <progname class="java.lang.String" comment="默认的global progname"/>
+    <autoInsertServletPathOnAccess class="java.lang.Boolean" comment="当用户请求的页面地址在数据库中没有配置时，是否自动将这个地址插入到数据库。">false</autoInsertServletPathOnAccess>
+    <visitUnKnowPathOnAccess class="java.lang.Boolean" comment="当用户请求的页面地址在数据库中没有配置时，是否允许访问。">false</visitUnKnowPathOnAccess>
+  </root>
+</root>

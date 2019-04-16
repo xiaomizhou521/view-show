@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root defDateFormat="yyyy-MM-dd HH:mm:ss" driver="cn.com.enorth.utility.file.impl.xml_util.XmlDriver" version="1.0">
+  <root class="java.util.TreeMap">
+  	<!-- 
+    <item>
+      <key class="java.lang.String"><![CDATA[trec_news_tags]]></key>
+      <value class="cn.com.enorth.feedback.vo.dao.TableSeqDefineVo">
+        <priSeqInitValue class="java.lang.Long">300000001</priSeqInitValue>
+        <listorderSeqDef class="java.lang.Long">0</listorderSeqDef>
+        <priSeqDef class="java.lang.Long">300000001</priSeqDef>
+        <progname class="java.lang.String"><![CDATA[rec]]></progname>
+        <tablename class="java.lang.String"><![CDATA[trec_news_tags]]></tablename>
+        <listorderSeqName class="java.lang.String"/>
+        <priSeqName class="java.lang.String"><![CDATA[sn_news_tags_id]]></priSeqName>
+        <listorderSeqInitValue class="java.lang.Long">0</listorderSeqInitValue>
+        <listorderUpdateByMaintain class="java.lang.Boolean">true</listorderUpdateByMaintain>
+        <priUpdateByMaintain class="java.lang.Boolean">true</priUpdateByMaintain>
+      </value>
+    </item>
+     -->
+  </root>
+</root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root defDateFormat="yyyy-MM-dd HH:mm:ss" driver="cn.com.enorth.utility.file.impl.xml_util.XmlDriver" version="1.0">
+  <BASE_INFO class="cn.com.enorth.utility.pool.common.PoolBaseInfoVo" comment="池基础配置信息">
+    <name class="Null" comment="池名"/>
+    <minSize class="java.lang.Integer" comment="池最小数">10</minSize>
+    <maxSize class="java.lang.Integer" comment="池最大数">500</maxSize>
+    <getOneRetryCount class="java.lang.Integer" comment="创建一个实例时如果出错，可以重新尝试的次数">3</getOneRetryCount>
+    <retryIntervalMillis class="java.lang.Long" comment="创建实例重新尝试的时间间隔">500</retryIntervalMillis>
+    <maxWaitMillisOnGetObj class="java.lang.Long" comment="获得一个对象时，最大的等待时间">3000</maxWaitMillisOnGetObj>
+    <maxQueueLengthOnGetObj class="java.lang.Integer" comment="当队列满了的情况外面的等待队列最大有多少">3</maxQueueLengthOnGetObj>
+    <poolMold class="cn.com.enorth.utility.pool.common.EnumPoolMold" comment="池运行模式">checkOnTimer</poolMold>
+    <log4jName class="java.lang.String" comment="log4j日志名"><![CDATA[poolLog]]></log4jName>
+  </BASE_INFO>
+  <AUTO_SHRINK class="cn.com.enorth.utility.pool.common.AutoShrinkVo" comment="池自动收缩配置">
+    <enable class="java.lang.Boolean" comment="这个配置是否生效">false</enable>
+    <excuteIntervalMillis class="java.lang.Long" comment="自动释放实例检查执行间隔">240000</excuteIntervalMillis>
+    <maxIdleMillis class="java.lang.Long" comment="实例多久未使用就进行释放">120000</maxIdleMillis>
+  </AUTO_SHRINK>
+  <CHECK_AVALI_ABLE class="cn.com.enorth.utility.pool.common.CheckAvailableVo" comment="池有效性检查配置">
+    <enable class="java.lang.Boolean" comment="这个配置是否生效">true</enable>
+    <checkOnTimerExcuteIntervalMillisOnSuccess class="java.lang.Long" comment="使用定时器检查模式下，连接完好时检查的间隔">10000</checkOnTimerExcuteIntervalMillisOnSuccess>
+    <checkOnTimerExcuteIntervalMillisOnFail class="java.lang.Long" comment="使用定时器检查模式下，连接失败时检查的间隔">3000</checkOnTimerExcuteIntervalMillisOnFail>
+    <checkOnGetCheckIntervalMillisOnSuccess class="java.lang.Long" comment="得到连接时检查模式下，连接完好时检查的间隔">10000</checkOnGetCheckIntervalMillisOnSuccess>
+    <checkOnGetCheckIntervalMillisOnFail class="java.lang.Long" comment="得到连接时检查模式下，连接失败时检查的间隔">3000</checkOnGetCheckIntervalMillisOnFail>
+  </CHECK_AVALI_ABLE>
+  <POOL_OBJECT_MONITOR class="cn.com.enorth.utility.pool.common.PoolObjectMonitorVo" comment="池对象运行监控配置">
+    <enable class="java.lang.Boolean" comment="这个配置是否生效">true</enable>
+    <excuteIntervalMillis class="java.lang.Long" comment="执行检查未释放连接的时间间隔。时间单位：毫秒。">60000</excuteIntervalMillis>
+    <timeUpperBoundMillisOnExcute class="java.lang.Long" comment="检查多长时间未关闭的链接，则视为有问题的操作。时间单位：毫秒。">20000</timeUpperBoundMillisOnExcute>
+    <logApplyStackTrace class="java.lang.Boolean" comment="是否记录申请链接时的堆栈">true</logApplyStackTrace>
+    <triggerMonitorEventOnPoolObjClose class="java.lang.Boolean" comment="当对象执行操作完毕时，并且超出检查的时间上限时是否触发poolObjectMonitorEvent事件。">false</triggerMonitorEventOnPoolObjClose>
+  </POOL_OBJECT_MONITOR>
+</root>

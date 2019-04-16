@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root defDateFormat="yyyy-MM-dd HH:mm:ss" driver="cn.com.enorth.utility.file.impl.xml_util.XmlDriver" version="1.0">
+  <ENCODER class="java.lang.String"><![CDATA[GBK]]></ENCODER>
+  <SYSLOG_CONFIG_XML_ROOT class="java.lang.String"><![CDATA[root]]></SYSLOG_CONFIG_XML_ROOT>
+  <SYSLOG_CONFIG_FILENAME class="java.lang.String"><![CDATA[sys_log_config.xml]]></SYSLOG_CONFIG_FILENAME>
+  <SYSLOG_ROOT_PATH class="java.lang.String">d:/temp/logs/</SYSLOG_ROOT_PATH>
+  <SYSLOG_ROOT_PATH_REPLACE_NAME class="java.lang.String"><![CDATA[${log_root_path}]]></SYSLOG_ROOT_PATH_REPLACE_NAME>
+</root>
